@@ -21,7 +21,7 @@
                         <h2 class="text-warning">Inicia sesión.</h2>
                         <input type="text" placeholder="Username" class="form-control">
                         <input type="password" placeholder="Password" class="form-control">
-                        <a href="#" class="btn btn-primary">LogIn</a>
+                        <a href="./panelusuario.php" class="btn btn-primary">LogIn</a>
                         <p class="signup">No tienes una cuenta?<a href="#" onclick="toggleForm()">Registrate.</a></p>
                     </form>
                 </div>
