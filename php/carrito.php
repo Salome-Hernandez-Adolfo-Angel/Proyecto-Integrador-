@@ -17,7 +17,7 @@
     include("./views/navbar.php");
     ?>
     <div class="container-lg mb-4" id="separacionSeccion">
-        <h6 style="text-align: center; font-size: 30px;" class="text-success"> Productos añadidos al carrito.</h6>
+        <h6 style="text-align: center; font-size: 30px;" class="text-success text-lg-center"> Productos añadidos al carrito.</h6>
     </div>
 
     <div class="container-sm shadow-lg p-3 mb-5 bg-white rounded">
@@ -128,8 +128,8 @@
                     <td scope="row"></td>
                     <td></td>
                     <td class="text-success"></td>
-                    <td><a href="productos.php" class="btn btn-primary">Seguir comprando.</a></td>
-                    <td><a href="#" class="btn btn-secondary">Aceptar compra.</a></td>
+                    <td><a href="productos.php" class="btn btn-warning">Seguir comprando.</a></td>
+                    <td><a href="#" class="btn btn-success">Aceptar compra.</a></td>
                 </tr>
             </tbody>
         </table>
