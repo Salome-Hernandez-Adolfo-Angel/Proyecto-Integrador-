@@ -1,0 +1,39 @@
+ /***** Section *****/
+    
+ #titulo {
+    font-family: Courier;
+    font-size: 40px;
+}
+
+#codp {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.favs {
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 6%;
+}
+
+#separacion {
+    margin-left: 1%;
+}
+
+.precio{
+    color: rgb(9, 129, 9);
+    text-align: center;
+}
+
+.agregar{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#separacionSeccion{
+    margin-top: 5%;
+}
+td{
+    font-weight: bold;
+}
+/***** End Section *****/
