@@ -55,7 +55,7 @@
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="container-sm carousel-inner">
+    <div class="container-sm carousel-inner" style="width: 350px;">
       <div class="carousel-item active" data-bs-interval="10000">
         <img src="../img/ofertas/images (4).jpeg" style="height: 500px;"class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">

@@ -119,7 +119,7 @@
             </div>
         </div>
         <div class="card shadow p-3 mb-5 bg-body rounded" style="width:20rem;" id="separacion">
-            <img src="../img/productos/quesopanela.png" class="card-img-top" alt="..." style="height:390px;">
+            <img src="../img/productos/quesopanela.png" class="card-img-top" alt="..." style="height:auto;">
             <div class="card-body">
                 <h5 class="card-title precio">$17.00</h5>
                 <h6>Selecciona la cantidad</h6>
@@ -140,7 +140,7 @@
             </div>
         </div>
         <div class="card shadow p-3 mb-5 bg-body rounded" style="width:20rem;" id="separacion">
-            <img src="../img/productos/mantequilla.png"  class="card-img-top" alt="..." style="height: 390px;">
+            <img src="../img/productos/mantequilla.png"  class="card-img-top" alt="..." style="height: auto;">
             <div class="card-body">
                 <h5 class="card-title precio">$15.00</h5>
                 <h6>Selecciona la cantidad</h6>
@@ -149,7 +149,7 @@
             </div>
         </div>
         <div class="card shadow p-3 mb-5 bg-body rounded" style="width:20rem;" id="separacion">
-            <img src="../img/productos/quesocrema.png" class="card-img-top" alt="..." style="height:390px;">
+            <img src="../img/productos/quesocrema.png" class="card-img-top" alt="..." style="height:auto;">
             <div class="card-body">
                 <h5 class="card-title precio">$25.00</h5>
                 <h6>Selecciona la cantidad</h6>
@@ -180,7 +180,7 @@
             </div>
         </div>
         <div class="card shadow p-3 mb-5 bg-body rounded" style="width:20rem;" id="separacion">
-            <img src="../img/productos/corona.png" class="card-img-top" alt="..." style="height:390px;">
+            <img src="../img/productos/corona.png" class="card-img-top" alt="..." style="height:auto;">
             <div class="card-body">
                 <h5 class="card-title precio">$150.00</h5>
                 <h6>Selecciona la cantidad</h6>
@@ -201,7 +201,7 @@
             </div>
         </div>
         <div class="card shadow p-3 mb-5 bg-body rounded" style="width:20rem;" id="separacion">
-            <img src="../img/productos/bonafont.png"  class="card-img-top" alt="..." style="height: 390px;">
+            <img src="../img/productos/bonafont.png"  class="card-img-top" alt="..." style="height: auto;">
             <div class="card-body">
                 <h5 class="card-title precio">$16.00</h5>
                 <h6>Selecciona la cantidad</h6>
@@ -210,7 +210,7 @@
             </div>
         </div>
         <div class="card shadow p-3 mb-5 bg-body rounded" style="width:20rem;" id="separacion">
-            <img src="../img/productos/jarritos.png" class="card-img-top" alt="..." style="height:390px;">
+            <img src="../img/productos/jarritos.png" class="card-img-top" alt="..." style="height:auto;">
             <div class="card-body">
                 <h5 class="card-title precio">$12.00</h5>
                 <h6>Selecciona la cantidad</h6>
@@ -224,7 +224,7 @@
     <h6 style="margin-top: 5%;margin-left: 1%; font-size: 30px;" id="verduras">Verduras</h6>
     <div class="container-fluid card-group" id="separacionSeccion">
         <div class="card shadow p-3 mb-5 bg-body rounded" style="width:20rem;" id="separacion">
-            <img src="../img/productos/chile.png"  class="card-img-top" alt="...">
+            <img src="../img/productos/chile.png"  class="card-img-top" alt="..." style="height: 350px;">
             <div class="card-body">
                 <h5 class="card-title precio">$20.00 Kg</h5>
                 <h6>Selecciona la cantidad</h6>
@@ -233,7 +233,7 @@
             </div>
         </div>
         <div class="card shadow p-3 mb-5 bg-body rounded" style="width:20rem;" id="separacion">
-            <img src="../img/productos/jitomate.png"  class="card-img-top" alt="..." style="height:390px;">
+            <img src="../img/productos/jitomate.png"  class="card-img-top" alt="..." style="height:350px;">
             <div class="card-body">
                 <h5 class="card-title precio">$18.00 Kg</h5>
                 <h6>Selecciona la cantidad</h6>
@@ -242,7 +242,7 @@
             </div>
         </div>
         <div class="card shadow p-3 mb-5 bg-body rounded" style="width:20rem;" id="separacion">
-            <img src="../img/productos/cilantro.png" class="card-img-top" alt="..." style="height:390px;">
+            <img src="../img/productos/cilantro.png" class="card-img-top" alt="..." style="height:350px;">
             <div class="card-body">
                 <h5 class="card-title precio">$5.00 100g</h5>
                 <h6>Selecciona la cantidad</h6>

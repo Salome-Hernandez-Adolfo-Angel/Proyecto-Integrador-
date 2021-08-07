@@ -5,9 +5,8 @@
             <div class="row text-center text-md-left">
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Tienda don gualu</h5>
-                    <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
-                        vero ullam natus optio aspernatur totam, et nisi quos doloremque eaque ab impedit consequatur
-                        minima dicta omnis corrupti in, commodi qui?</p>
+                    <p style="text-align: justify;">Nuestra tienda te lleva los mejores productos al mejor precio,
+                procuramos que cada uno de nuestros productos sea de lo mejor. Brindaremos la mejor atención, pues más que un cliente, somos familia.</p>
                 </div>
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                     <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Proveedores</h5>
@@ -27,10 +26,10 @@
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                     <h5 class="text-uppercase mb-4 font-weight-fold text-warning">Links adicionales</h5>
                     <p>
-                        <a href="#" class="text-white" style="text-decoration: none;">Tu cuenta</a>
+                        <a href="../login.php" class="text-white" style="text-decoration: none;">Tu cuenta</a>
                     </p>
                     <p>
-                        <a href="#" class="text-white" style="text-decoration: none;">Registrarte</a>
+                        <a href="../login.php" class="text-white" style="text-decoration: none;">Registrarte</a>
                     </p>
                     <p>
                         <a href="#" class="text-white" style="text-decoration: none;">Terminos y condiciones</a>
