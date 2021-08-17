@@ -13,9 +13,9 @@
          <span class="tooltip"> Dashboard</span>
       </li>
       <li>
-       <a href="#">
+       <a href="../../crud/login.php">
          <i class='fas fa-user' ></i>
-         <span class="links_name"> User</span>
+         <span class="links_name">Registro de usuarios</span>
        </a>
        <span class="tooltip">User</span>
      </li>
