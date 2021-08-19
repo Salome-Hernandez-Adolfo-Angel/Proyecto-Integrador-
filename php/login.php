@@ -17,11 +17,11 @@
             <div class="user signinBx">
                 <div class="imgBx"><img src="../img/login//1628113672379.png" alt=""></div>
                 <div class="formBx">
-                    <form>
+                    <form action="./consultas/consulta_login.php" method="POST">
                         <h2 class="text-warning">Inicia sesión.</h2>
-                        <input type="text" placeholder="Username" class="form-control">
-                        <input type="password" placeholder="Password" class="form-control">
-                        <a href="./panelusuario.php" class="btn btn-primary">LogIn</a>
+                        <input type="text" placeholder="Username" class="form-control" name="username">
+                        <input type="password" placeholder="Password" class="form-control" name="pass">
+                        <input type="submit" class="btn btn-primary">
                         <p class="signup">No tienes una cuenta?<a href="#" onclick="toggleForm()">Registrate.</a></p>
                     </form>
                 </div>
@@ -29,16 +29,16 @@
             <div class="user signupBx">
                 <div class="imgBx"><img src="../img/login/1628113672379.png" alt=""></div>
                 <div class="formBx">
-                    <form>
+                    <form action="./consultas/consulta_login_ins.php" method="POST">
                         <h2 class="text-success">Crear una cuenta</h2>
-                        <input type="text" placeholder="Username" class="form-control">
-                        <input type="text" placeholder="Apellido paterno" class="form-control">
-                        <input type="text" placeholder="Apellido materno" class="form-control">
-                        <input type="text" placeholder="Nombres" class="form-control">
-                        <input type="text" placeholder="E-mail" class="form-control">
-                        <input type="password" placeholder="Create Password" class="form-control">
-                        <input type="password" placeholder="Confirm Password" class="form-control">
-                        <a href="#" class="btn btn-secondary">Sign Up</a>
+                        <input type="text" placeholder="Username" class="form-control" name="username">
+                        <input type="text" placeholder="Apellido paterno" class="form-control" name="AP">
+                        <input type="text" placeholder="Apellido materno" class="form-control" name="AM">
+                        <input type="text" placeholder="Nombres" class="form-control" name="NOM">
+                        <input type="text" placeholder="E-mail" class="form-control" name="e_mail">
+                        <input type="password" placeholder="Create Password" class="form-control" name="pass">
+                        <input type="password" placeholder="Confirm Password" class="form-control" name="pass_c">
+                        <input type="submit" class="btn btn-primary">
                         <p class="signup">Ya tienes una cuenta?<a href="#" onclick="toggleForm()">Inicia sesión.</a></p>
                     </form>
                 </div>

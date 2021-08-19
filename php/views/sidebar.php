@@ -13,7 +13,7 @@
          <span class="tooltip"> Dashboard</span>
       </li>
       <li>
-       <a href="../../crud/login.php">
+       <a href="../crud/login.php">
          <i class='fas fa-user' ></i>
          <span class="links_name">Registro de usuarios</span>
        </a>
@@ -69,7 +69,7 @@
              <div class="job">Web designer</div>
            </div>
          </div>
-         <a href="#"><i class='fas fa-sign-out-alt' id="log_out" ></i></a>
+         <a href="../login.php"><?php session_destroy() ?><i class='fas fa-sign-out-alt' id="log_out" ></i></a>
      </li>
     </ul>
   </div>

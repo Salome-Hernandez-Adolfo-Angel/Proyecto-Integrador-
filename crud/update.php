@@ -2,15 +2,16 @@
 include("conexion.php");
 $con=conectar();
 
-$e_mail=$_POST['e_mail'];
-$username=$_POST['username'];
-$AP=$_POST['AP'];
-$AM=$_POST['AM'];
-$NOM=$_POST['NOM'];
-$pass=$_POST['pass'];
-$pass_c=$_POST['pass_c'];
+$cod=$_POST['codigo_empleado'];
+$cargo=$_POST['cargo'];
+$apellido_p=$_POST['apellido_p'];
+$apellido_m=$_POST['apellido_m'];
+$nombre=$_POST['nombre'];
+$edad=$_POST['edad'];
+$domicilio=$_POST['domicilio'];
+$sueldo=$_POST['sueldo'];
 
-$sql="UPDATE login SET e_mail='$e_mail',username='$username',AP='$AP',AM='$AM',NOM='$NOM',pass='$pass',pass_c='$pass_c' WHERE e_mail='$e_mail'";
+$sql="UPDATE empleados SET cargo='$cargo',apellido_p='$apellido_p',apellido_m='$apellido_m',nombre='$nombre',edad='$edad',domicilio='$domicilio',sueldo='$sueldo' WHERE codigo_empleado='$cod'";
 $query=mysqli_query($con,$sql);
 if($query){
     Header("Location:login.php");

@@ -2,7 +2,7 @@
 include("conexion.php");
 $con = conectar();
 
-$sql = "select*from login";
+$sql = "select*from empleados";
 $query = mysqli_query($con, $sql);
 ?>
 
@@ -16,36 +16,37 @@ $query = mysqli_query($con, $sql);
     <title>Login CRUD</title>
     <link rel="stylesheet" href="../bootstrap-5/dist/css/bootstrap.min.css">
     <script src="../bootstrap-5/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../proyecto/Js-bootstrap/Js-bootstrap.js"></script>
 </head>
 
 <body>
-    <div class="container-fluid mt-5">
-        <div class="row">
-            <div class="col-md-3">
-                <h1>Formulario</h1>
+    <div class="container-lg p-4 shadow-lg p-3 mb-5 bg-body" style="margin-top: 5%;">
+            <div class="container-sm">
+                <h1 class="text-success text-center">Formulario</h1>
                 <form action="insertar.php" method="POST">
-                    <input type="text" class="form-control mb-3" name="e_mail" placeholder="E-mail">
-                    <input type="text" class="form-control mb-3" name="username" placeholder="Username">
-                    <input type="text" class="form-control mb-3" name="AP" placeholder="Apellido paterno">
-                    <input type="text" class="form-control mb-3" name="AM" placeholder="Apellido materno">
-                    <input type="text" class="form-control mb-3" name="NOM" placeholder="Nombres">
-                    <input type="password" class="form-control mb-3" name="pass" placeholder="Password">
-                    <input type="password" class="form-control mb-3" name="pass_c" placeholder="Password">
+                    <input type="number" class="form-control mb-3" name="codigo_empleado" placeholder="Codigo empleado">
+                    <input type="text" class="form-control mb-3" name="cargo" placeholder="Cargo">
+                    <input type="text" class="form-control mb-3" name="apellido_p" placeholder="Apellido paterno">
+                    <input type="text" class="form-control mb-3" name="apellido_m" placeholder="Apellido materno">
+                    <input type="text" class="form-control mb-3" name="nombre" placeholder="Nombres">
+                    <input type="number" class="form-control mb-3" name="edad" placeholder="Edad">
+                    <input type="text" class="form-control mb-3" name="domicilio" placeholder="Domicilio">
+                    <input type="number" class="form-control mb-3" name="sueldo" placeholder="Sueldo">
                     <input type="submit" class="btn btn-primary">
                 </form>
             </div>
-            <div class="col-md-8">
+            <div class="container-sm mt-5">
+                <h1 class="text-warning text-center">Registros</h1>
                 <table class="table table-responsive">
                     <thead class="table-success table-striped">
                         <tr>
-                            <th>E_mail</th>
-                            <th>User</th>
+                            <th>Id</th>
+                            <th>Cargo</th>
                             <th>Ap paterno</th>
                             <th>Ap materno</th>
                             <th>Nombre</th>
-                            <th>Password</th>
-                            <th>Confirm pass</th>
+                            <th>Edad</th>
+                            <th>Domicilio</th>
+                            <th>Sueldo</th>
                             <th></th>
                             <th></th>
                         </tr>
@@ -56,15 +57,16 @@ $query = mysqli_query($con, $sql);
                         while ($row = mysqli_fetch_array($query)) {
                         ?>
                             <tr>
-                                <th><?php echo $row['e_mail'] ?></th>
-                                <th><?php echo $row['username'] ?></th>
-                                <th><?php echo $row['AP'] ?></th>
-                                <th><?php echo $row['AM'] ?></th>
-                                <th><?php echo $row['NOM'] ?></th>
-                                <th><?php echo $row['pass'] ?></th>
-                                <th><?php echo $row['pass_c'] ?></th>
-                                <th><a href="actualizar.php?id=<?php echo $row['e_mail']?>" class="btn btn-info">Editar</a></th>
-                                <th><a href="delete.php?id=<?php echo $row['e_mail']?>" class="btn btn-danger">Borrar</a></th>
+                                <th><?php echo $row['codigo_empleado'] ?></th>
+                                <th><?php echo $row['cargo'] ?></th>
+                                <th><?php echo $row['apellido_p'] ?></th>
+                                <th><?php echo $row['apellido_m'] ?></th>
+                                <th><?php echo $row['nombre'] ?></th>
+                                <th><?php echo $row['edad'] ?></th>
+                                <th><?php echo $row['domicilio'] ?></th>
+                                <th><?php echo $row['sueldo'] ?></th>
+                                <th><a href="actualizar.php?id=<?php echo $row['codigo_empleado']?>" class="btn btn-info">Editar</a></th>
+                                <th><a href="delete.php?id=<?php echo $row['codigo_empleado']?>" class="btn btn-danger">Borrar</a></th>
                             </tr>
                         <?php
                         }
@@ -72,8 +74,7 @@ $query = mysqli_query($con, $sql);
                     </tbody>
                 </table>
             </div>
-        </div>
-    </div>
-</body>
+            </div>
+        </body>
 
 </html>
