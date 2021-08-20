@@ -23,7 +23,6 @@ $query = mysqli_query($con, $sql);
             <div class="container-sm">
                 <h1 class="text-success text-center">Formulario</h1>
                 <form action="insertar.php" method="POST">
-                    <input type="number" class="form-control mb-3" name="codigo_empleado" placeholder="Codigo empleado">
                     <input type="text" class="form-control mb-3" name="cargo" placeholder="Cargo">
                     <input type="text" class="form-control mb-3" name="apellido_p" placeholder="Apellido paterno">
                     <input type="text" class="form-control mb-3" name="apellido_m" placeholder="Apellido materno">

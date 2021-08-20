@@ -1,7 +1,7 @@
 <?php
 function conectar(){
 $servername = "localhost";
-$database = "tienda";
+$database = "tienda_unica";
 $username = "root";
 $password = "Ajstyles02";
 

@@ -69,7 +69,7 @@
              <div class="job">Web designer</div>
            </div>
          </div>
-         <a href="../login.php"><?php session_destroy() ?><i class='fas fa-sign-out-alt' id="log_out" ></i></a>
+         <a href="#"><?php  ?><i class='fas fa-sign-out-alt' id="log_out" ></i></a>
      </li>
     </ul>
   </div>
